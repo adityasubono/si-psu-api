@@ -1,26 +1,29 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "si-psu-db",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
+    "username": "dscarisqmxqrgz",
+    "password": "6844b416685243213e1d2bb4b77623afce0978ddfbd4ed0d161edea45a500090",
+    "database": "dbv93nk8hnai5l",
+    "host": "ec2-52-200-119-0.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "port" : 5432,
     "operatorsAliases": false
   },
   "test": {
-    "username": "root",
-    "password": null,
+    "username": "postgres",
+    "password": "12345678",
     "database": "si-psu-db-test",
     "host": "127.0.0.1",
-    "dialect": "mysql",
+    "dialect": "postgres",
+    "port" : 5433,
     "operatorsAliases": false
   },
   "production": {
-    "username": "root",
-    "password": null,
+    "username": "postgres",
+    "password": "12345678",
     "database": "si-psu-db-prod",
     "host": "127.0.0.1",
-    "dialect": "mysql",
+    "dialect": "postgres",
+    "port" : 5433,
     "operatorsAliases": false
   }
 }
